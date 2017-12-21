@@ -1,0 +1,22 @@
+<!-- Wrapper-->
+<div id="wrapper">
+
+    <!-- Navigation -->
+
+    <!-- Page wraper -->
+    <!-- ng-class with current state name give you the ability to extended customization your view -->
+    <div id="page-wrapper" class="baby-blue-bg {{$state.current.name}}">
+
+        <!-- Page wrapper -->
+
+        <!-- Main view  -->
+        <div ui-view></div>
+
+        <!-- Footer -->
+        <div ng-include="'components/layout/footer.html'"></div>
+
+    </div>
+    <!-- End page wrapper-->
+
+</div>
+<!-- End wrapper-->

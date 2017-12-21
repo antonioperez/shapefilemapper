@@ -1,0 +1,37 @@
+<div class="login-background container-fluid">
+
+  <div class="middle-box text-center  animated fadeInDown  row">
+      <div class="col-sm-6 login-left form-card">
+        <div>
+          <img class="login-logo" src="components/layout/sgma-big-logo.png" />
+        </div>
+        <br>
+        <div class="alert alert-danger" ng-show="errorMessage">
+          {{errorMessage}}
+        </div>
+        <form class="" role="form">
+          <div class="form-group">
+            <input type="email" class="form-control login-input" placeholder="Username" required ng-model="email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control login-input" placeholder="Password" required ng-model="password">
+          </div>
+          <button class="btn btn-primary block full-width m-b login-button" ng-click="signIn()">
+          Login
+      </button>
+          <a ui-sref="forgot_password">
+        <small>Forgot password?</small>
+      </a>
+          <p class="text-muted text-center">
+            <small>Do not have an account?</small>
+          </p>
+          <a class="btn btn-sm btn-white btn-block" ui-sref="register">
+        Create an account
+      </a>
+        </form>
+      </div>
+      <div class="col-sm-6 login-right ">
+         <img class="login-right-img" src="components/layout/img-farm.png" />
+      </div>
+    </div>
+  </div>

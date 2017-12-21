@@ -1,0 +1,59 @@
+{
+  "name": "inspinia",
+  "version": "2.7.1",
+  "authors": [
+    "Damian Dudziak - WebAppLayers"
+  ],
+  "description": "INSPINIA - Responsive Admin Theme",
+  "main": "app/index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "appPath": "app",
+  "dependencies": {
+    "oclazyload": "^1.1.0",
+    "angular-animate": "~1.5.0",
+    "angular-sanitize": "~1.5.0",
+    "angular-messages": "~1.5.0",
+    "angular-aria": "~1.5.0",
+    "angular-resource": "~1.5.0",
+    "angular-ui-router": "~0.2.15",
+    "bootstrap": "~3.3.7",
+    "angular-bootstrap": "~1.1.2",
+    "moment": "~2.10.6",
+    "animate.css": "~3.4.0",
+    "angular": "~1.5.0",
+    "pace": "~1.0.2",
+    "metisMenu": "~2.0.2",
+    "fontawesome": "~4.7.0",
+    "leaflet": "~1.0.3",
+    "leaflet-search": "^2.7.2",
+    "leaflet-draw": "^0.4.10",
+    "jquery": "^3.1.1",
+    "jquery-ui": "1.12.1",
+    "jquery-slimscroll": "1.3.8",
+    "esri-leaflet": "^2.0.8",
+    "shp": "^3.4.0",
+    "Ionicons": "ionicons#^2.0.1",
+    "angular-file-upload": "^2.5.0",
+    "angular-datepicker": "^2.0.3",
+    "firebase": "^4.2.0",
+    "angular-chosen-localytics": "^1.8.0",
+    "chosen": "^1.7.0",
+    "angular-summernote": "^0.8.1",
+    "angular-svg-round-progressbar": "0.4.8",
+    "s-circle-progress": "^0.1.0",
+    "progress-bubble": "^1.3.1",
+    "c3": "^0.4.16",
+    "lato": "^0.3.0",
+    "leaflet.zoomhome": "^0.2.0",
+    "angular-cookies": "1.5.11"
+  },
+  "resolutions": {
+    "angular": "~1.5.0",
+    "jquery": "^3.1.1"
+  }
+}
